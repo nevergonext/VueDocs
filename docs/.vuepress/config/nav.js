@@ -48,9 +48,8 @@ module.exports = [
     link: '/more/',
     items: [
       { text: '一些实用小技巧', link: '/pages/0b37ee/' },
-      { text: '996公司黑名单', link: '/pages/aea6571b7a8bae86/' },
+      { text: '心里的小思绪', link: '/pages/50fe87/' },
       { text: '好玩的项目', link: '/pages/2d615df9a36a98ed/' },
-      { text: '让她三天喜欢上你', link: '/pages/baaa02/' },
       { text: '朋友圈', link: '/friends/' },
     ],
   },
