@@ -29,5 +29,18 @@ module.exports = {
             zIndex: 999999999,
          },
       ],
+
+      [
+         'dynamic-title',
+         {
+            showIcon: '',
+            showText: '(/≧▽≦/)咦！又好了！',
+            hideIcon: '',
+            hideText: '(●—●)喔哟，崩溃啦！',
+            recoverTime: 2000,
+         },
+      ],
    ],
+
+
 }
