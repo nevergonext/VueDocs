@@ -20,27 +20,27 @@ module.exports = {
 
 
 
-  plugins: [
-      [
-         'cursor-effects',
-         {
-            size: 2, // 粒子大小
-            shape: 'circle', // 粒子形状（可选 'star' 和 'circle'）
-            zIndex: 999999999,
-         },
-      ],
+//   plugins: [
+//       [
+//          'cursor-effects',
+//          {
+//             size: 2, // 粒子大小
+//             shape: 'circle', // 粒子形状（可选 'star' 和 'circle'）
+//             zIndex: 999999999,
+//          },
+//       ],
 
-      [
-         'dynamic-title',
-         {
-            showIcon: '',
-            showText: '(/≧▽≦/)咦！又好了！',
-            hideIcon: '',
-            hideText: '(●—●)喔哟，崩溃啦！',
-            recoverTime: 2000,
-         },
-      ],
-   ],
+//       [
+//          'dynamic-title',
+//          {
+//             showIcon: '',
+//             showText: '(/≧▽≦/)咦！又好了！',
+//             hideIcon: '',
+//             hideText: '(●—●)喔哟，崩溃啦！',
+//             recoverTime: 2000,
+//          },
+//       ],
+//    ],
 
 
 }
