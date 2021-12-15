@@ -67,22 +67,53 @@ postList: none
 ```
 :::
 
-## 🚀VueDocs
+## 🚀VocDocs 介绍
+1. VucDocs是一款基于[`VuePress`](https://vuepress.vuejs.org/)搭建的博客网站
+2. 这是一个和小伙伴一起用的`VuepressBlog`，用来记录一些学习，Bug
+3. 鲁迅曾经说过，如果一个`Bug没法在15秒内解决它`，在解决之后，一定要记录
+4. 网上冲浪固然有意思，但是充斥着各种`没用的解决方案`并被无限的`复制黏贴`
+5. 因此，有一个属于小伙伴们一起维护的`VuepressBlog`就固为重要
+6. 经常会感慨原来连`HelloWorld`不会写的自己，记录何尝不是一件好事
+## ❓VuePress是什么？
+[VuePress](https://vuepress.vuejs.org/)本质上是一个`Vue-powered Static Site Generator`
 
-### 安装
-1.在您的桌面，轻轻的右键，找到**Git Bash Here**
+- **Simplicity First**
+- **Minimal setup with markdown-centered project structure helps you focus on writing.**
+- **Vue-Powered
+Enjoy the dev experience of Vue + webpack, use Vue components in markdown, and develop custom themes with Vue.**
+- **Performant
+VuePress generates pre-rendered static HTML for each page, and runs as an SPA once a page is loaded.**
 
-1.1 在此之前，您需要安装[Git](https://git-scm.com/downloads)，还有[VS code](https://code.visualstudio.com/) 或 [WebStorm](https://www.jetbrains.com/webstorm/)
+对于普通的User来说，VuePress对比大多数的`Static Site Generator`解决了一个最核心`MarkDown不能写Html标签`的问题
+```Bash
+# 别的博客
+您必须在此输入Html语法
+```
+## ✔VuePress以及VueDocs的优点
+1. 进行了移动端的页面适配,在手机上访问`VueDocs`的时候将不会出现`样式排序错乱`的问题,有一个良好的访问体验
+2. 自动进行生成侧边栏数据,不需要手动添加,目录有序,轻松在10秒内快速寻找到一个知识点
+3. 任何`笔记`将以本地文件的形式高速部署在网站上,保证了数据的安全性
+  
+在此之前,因为学习我尝试过大量的Note App<br>
+`onenote` `印象笔记` `Typora` `Notion` `有道云笔记`<br>
+它们是好软件,但是同时缺陷也无可避免
 
-1.2 顺便再安装一下，[Node.js](https://nodejs.org/zh-cn/)，选择左边的长期维护版
+## 🎉启动
 
+::: details
 ```bash
-# Windows 安装
+# Windows 安装yarn
 npm install -g yarn --registry=https://registry.npm.taobao.org
+# 配置
 yarn config set sass_binary_site http://cdn.npm.taobao.org/dist/node-sass -g
-# 装完顺便通过检查版本确认安装是否成功，失败就去问Google吧
+# 装完顺便通过检查版本确认安装是否成功，失败就去问Google和百度吧
 yarn --version
+```
+:::
 
+
+::: details
+```bash
 # 克隆Project
 git clone https://github.com/AsheOne18/VueDocs.git
 
@@ -94,11 +125,5 @@ yarn install # 或npm install
 
 # 启动
 yarn docs:dev # 或 # npm run dev
-
-# 万能的8080
-http://localhost:8080/
 ```
-
-### 注意
-
-- 如果你的现有项目依赖了 webpack 3.x，我们推荐使用 [Yarn](https://classic.yarnpkg.com/zh-Hans/)而不是 npm 来安装 VuePress。因为在这种情形下，npm 会生成错误的依赖树。
+:::

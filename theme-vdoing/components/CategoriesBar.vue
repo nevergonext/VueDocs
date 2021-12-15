@@ -1,4 +1,3 @@
-<!--
 <template>
   <div class="categories-wrapper card-box">
     <router-link
@@ -114,4 +113,3 @@ export default {
   background var(--customBlockBg)
 </style>
 
--->
