@@ -17,11 +17,11 @@ module.exports = {
   sidebar: 'structuring', 
 
       bodyBgImg: [
-      './img/bg3.jpg',
+      'https://raw.githubusercontent.com/AsheOne18/Image-Repository/main/Image/bg1.jpg',
       // '/img/bg4.jpg',
-      './img/bg5.jpg',
+      'https://raw.githubusercontent.com/AsheOne18/Image-Repository/main/Image/bg2.jpg',
       // '/img/bg2.jpg',
-      './img/bg1.jpg',
+      'https://raw.githubusercontent.com/AsheOne18/Image-Repository/main/Image/bg3.jpg',
     ], 
     bodyBgImgOpacity: 0.5, 
 
@@ -32,7 +32,7 @@ module.exports = {
   },
   blogger: {
     // 博主信息，显示在首页侧边栏
-    avatar: '/img/me.png',
+    avatar: 'https://avatars.githubusercontent.com/u/89166015?v=4',
     name: 'Ashe', 
     slogan: '代码不会写，只会调API',
   },
