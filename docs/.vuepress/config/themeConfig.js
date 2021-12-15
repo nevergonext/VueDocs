@@ -17,11 +17,11 @@ module.exports = {
   sidebar: 'structuring', 
 
       bodyBgImg: [
-      '/img/bg3.jpg',
+      './img/bg3.jpg',
       // '/img/bg4.jpg',
-      '/img/bg5.jpg',
+      './img/bg5.jpg',
       // '/img/bg2.jpg',
-      '/img/bg1.jpg',
+      './img/bg1.jpg',
     ], 
     bodyBgImgOpacity: 0.5, 
 
