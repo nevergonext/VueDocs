@@ -17,11 +17,11 @@ module.exports = {
   sidebar: 'structuring', 
 
       bodyBgImg: [
-      'https://raw.githubusercontent.com/AsheOne18/Image-Repository/main/Image/bg1.jpg',
       // '/img/bg4.jpg',
       'https://raw.githubusercontent.com/AsheOne18/Image-Repository/main/Image/bg2.jpg',
+      'https://cdn.jsdelivr.net/gh/summerking1/image@main/0-1.jpg',
+      'https://raw.githubusercontent.com/AsheOne18/Image-Repository/main/Image/bg1.jpg'
       // '/img/bg2.jpg',
-      'https://raw.githubusercontent.com/AsheOne18/Image-Repository/main/Image/bg3.jpg',
     ], 
     bodyBgImgOpacity: 0.5, 
 
@@ -34,7 +34,7 @@ module.exports = {
     // 博主信息，显示在首页侧边栏
     avatar: 'https://avatars.githubusercontent.com/u/89166015?v=4',
     name: 'Ashe', 
-    slogan: '代码不会写，只会调API',
+    slogan: '你要去相信没有到不了的明天',
   },
   
   social: {

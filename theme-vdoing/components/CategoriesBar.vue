@@ -1,3 +1,4 @@
+<!--
 <template>
   <div class="categories-wrapper card-box">
     <router-link
@@ -112,3 +113,5 @@ export default {
 .theme-mode-dark .categories-wrapper .categories a:not(.active):hover, .theme-mode-read .categories-wrapper .categories a:not(.active):hover
   background var(--customBlockBg)
 </style>
+
+-->

@@ -1,6 +1,6 @@
 // 插件配置
 module.exports = [
-  // 本地插件
+  // // 本地插件
   // [require('./plugins/love-me'), { // 鼠标点击爱心特效
   //   color: '#11a8cd', // 爱心颜色，默认随机色
   //   excludeClassName: 'theme-vdoing-content' // 要排除元素的class, 默认空''
@@ -113,9 +113,9 @@ module.exports = [
          'dynamic-title',
          {
             showIcon: '',
-            showText: '(/≧▽≦/)咦！又好了！',
+            showText: '哎？你冲完啦！',
             hideIcon: '',
-            hideText: '(●—●)喔哟，崩溃啦！',
+            hideText: '亚洲情色、女主播黑丝诱惑、日本AV在线播放无需下载',
             recoverTime: 2000,
          },
       ],
