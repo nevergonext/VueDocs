@@ -1,11 +1,11 @@
 ---
 home: true
-heroImage: /img/Java.png
+# heroImage: /img/Java.png
 heroText: Welcome Home
-tagline: Accumulate steps and even thousands of miles
-actionText: 使用教程 →
-actionLink: /pages/b45ea2/
-bannerBg: 'https://raw.githubusercontent.com/AsheOne18/Image-Repository/main/Image/bg02.jpg' # auto => 网格纹背景(有bodyBgImg时无背景)，默认 | none => 无 | '大图地址' | background: 自定义背景样式     
+tagline: 人生的旅途，前途很远，也很暗。然而不要怕，不怕的人的面前才有路。
+# actionText: 使用教程 →
+# actionLink: /pages/b45ea2/
+# bannerBg: 'https://raw.githubusercontent.com/AsheOne18/Image-Repository/main/Image/bg02.jpg' # auto => 网格纹背景(有bodyBgImg时无背景)，默认 | none => 无 | '大图地址' | background: 自定义背景样式     
 
 features: # 可选的
   - title: 前端

@@ -16,6 +16,15 @@ module.exports = {
 
   sidebar: 'structuring', 
 
+      bodyBgImg: [
+      '/img/bg3.jpg',
+      // '/img/bg4.jpg',
+      '/img/bg5.jpg',
+      // '/img/bg2.jpg',
+      '/img/bg1.jpg',
+    ], 
+    bodyBgImgOpacity: 0.5, 
+
   author: {
     
     name: 'Ashe', // 必需
@@ -23,10 +32,11 @@ module.exports = {
   },
   blogger: {
     // 博主信息，显示在首页侧边栏
-    avatar: 'https://raw.githubusercontent.com/AsheOne18/Web-SimpleExample-MusicPlayer/main/img/11.jpg',
+    avatar: '/img/me.png',
     name: 'Ashe', 
-    slogan: '含金量国服没有含金量',
+    slogan: '代码不会写，只会调API',
   },
+  
   social: {
     icons: [
       {
