@@ -1,8 +1,8 @@
 ---
 home: true
-# heroImage: https://cdn.jsdelivr.net/gh/xugaoyi/image_store/blog/20200409124835.png
+heroImage: https://raw.githubusercontent.com/AsheOne18/Image-Repository/main/Image/hero.png
 heroText: Welcome Home
-tagline: 先努力让自己发光 对的人才能迎光而来 来路无可眷恋 值得期待的只有前方
+tagline: 故不积跬步，无以至千里；不积小流，无以成江海。VuePress，记录爱学习的你
 # actionText: 使用教程 →
 # actionLink: /pages/b45ea2/
 # bannerBg: 'https://raw.githubusercontent.com/AsheOne18/Image-Repository/main/Image/bg02.jpg' # auto => 网格纹背景(有bodyBgImg时无背景)，默认 | none => 无 | '大图地址' | background: 自定义背景样式     

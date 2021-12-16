@@ -50,7 +50,7 @@ module.exports = [
       { text: '一些实用小技巧', link: '/pages/0b37ee/' },
       { text: '心里的小思绪', link: '/pages/50fe87/' },
       { text: '好玩的项目', link: '/pages/2d615df9a36a98ed/' },
-      { text: '朋友圈', link: '/friends/' },
+      { text: '开发环境', link: '/development/' },
     ],
   },
 
