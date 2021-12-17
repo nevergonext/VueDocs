@@ -39,7 +39,9 @@ tagline: 故不积跬步，无以至千里；不积小流，无以成江海。Vu
 postList: none
 
 ---
+:::center
 ## ⚡朋友圈
+:::
 ::: cardList 4
 ```yaml
 - name: GK
@@ -67,38 +69,55 @@ postList: none
 ```
 :::
 
+:::center
 ## 🚀VocDocs 介绍
-1. VucDocs是一款基于[`VuePress`](https://vuepress.vuejs.org/)搭建的博客网站
-2. 这是一个和小伙伴一起用的`VuepressBlog`，用来记录一些学习，Bug
-3. 鲁迅曾经说过，如果一个`Bug没法在15秒内解决它`，在解决之后，一定要记录
-4. 网上冲浪固然有意思，但是充斥着各种`没用的解决方案`并被无限的`复制黏贴`
-5. 因此，有一个属于小伙伴们一起维护的`VuepressBlog`就固为重要
-6. 经常会感慨原来连`HelloWorld`不会写的自己，记录何尝不是一件好事
-## ❓VuePress是什么？
-[VuePress](https://vuepress.vuejs.org/)本质上是一个`Vue-powered Static Site Generator`
+:::
+:::center
+VucDocs是一款基于[`VuePress`](https://vuepress.vuejs.org/)搭建的博客网站
 
-- **Simplicity First**
-- **Minimal setup with markdown-centered project structure helps you focus on writing.**
-- **Vue-Powered
-Enjoy the dev experience of Vue + webpack, use Vue components in markdown, and develop custom themes with Vue.**
-- **Performant
-VuePress generates pre-rendered static HTML for each page, and runs as an SPA once a page is loaded.**
+这是一个和小伙伴一起用的`VuepressBlog`，用来记录一些学习，Bug
 
-对于普通的User来说，VuePress对比大多数的`Static Site Generator`解决了一个最核心`MarkDown不能写Html标签`的问题
-```Bash
-# 别的博客
-您必须在此输入Html语法
+鲁迅曾经说过，如果一个`Bug没法在15秒内解决它`，在解决之后，一定要记录
+网上冲浪固然有意思，但是充斥着各种`没用的解决方案`并被无限的`复制黏贴`
+
+因此，有一个属于小伙伴们一起维护的`VuepressBlog`就固为重要
+
+经常会感慨原来连`HelloWorld`不会写的自己，记录何尝不是一件好事
+:::center
+## 🐉神兽保佑无BUG
+:::
+```md
+#                                                          ___====-_  _-====___
+#                                                    _--^^^#####//      \\#####^^^--_
+#                                                _-^##########// (    ) \\##########^-_
+#                                                -############//  |\^^/|  \\############-
+#                                              _/############//   (@::@)   \\############\_
+#                                            /#############((     \\//     ))#############\
+#                                            -###############\\    (oo)    //###############-
+#                                          -#################\\  / VV \  //#################-
+#                                          -###################\\/      \//###################-
+#                                        _#/|##########/\######(   /\   )######/\##########|\#_
+#                                        |/ |#/\#/\#/\/  \#/\##\  |  |  /##/\#/  \/\#/\#/\#| \|
+#                                        `  |/  V  V  `   V  \#\| |  | |/#/  V   '  V  V  \|  '
+#                                            `   `  `      `   / | |  | | \   '      '  '   '
+#                                                            (  | |  | |  )
+#                                                            __\ | |  | | /__
+#                                                          (vvv(VVV)(VVV)vvv)
+#                              
+#                                                    新约圣经-程序员的福音 著：耶稣
+#                                
+#                                                    写字楼里写字间，写字间里程序员；  
+#                                                    程序人员写程序，又拿程序换酒钱。  
+#                                                    酒醒只在网上坐，酒醉还来网下眠；  
+#                                                    酒醉酒醒日复日，网上网下年复年。  
+#                                                    但愿老死电脑间，不愿鞠躬老板前；  
+#                                                    奔驰宝马贵者趣，公交自行程序员。  
+#                                                    别人笑我忒疯癫，我笑自己命太贱；  
+#                                                    不见满街漂亮妹，哪个归得程序员？              
 ```
-## ✔VuePress以及VueDocs的优点
-1. 进行了移动端的页面适配,在手机上访问`VueDocs`的时候将不会出现`样式排序错乱`的问题,有一个良好的访问体验
-2. 自动进行生成侧边栏数据,不需要手动添加,目录有序,轻松在10秒内快速寻找到一个知识点
-3. 任何`笔记`将以本地文件的形式高速部署在网站上,保证了数据的安全性
-  
-在此之前,因为学习我尝试过大量的Note App<br>
-`onenote` `印象笔记` `Typora` `Notion` `有道云笔记`<br>
-它们是好软件,但是同时缺陷也无可避免
-
+:::center
 ## 🎉启动
+:::
 
 ::: details
 ```bash
