@@ -18,12 +18,13 @@ module.exports = {
 
       bodyBgImg: [
       // '/img/bg4.jpg',
+      'https://raw.githubusercontent.com/AsheOne18/Image-Repository/main/Image/bg6.png',
       'https://raw.githubusercontent.com/AsheOne18/Image-Repository/main/Image/bg2.jpg',
       'https://cdn.jsdelivr.net/gh/summerking1/image@main/0-1.jpg',
       'https://raw.githubusercontent.com/AsheOne18/Image-Repository/main/Image/bg1.jpg'
       // '/img/bg2.jpg',
     ], 
-    bodyBgImgOpacity: 0.5, 
+    bodyBgImgOpacity: 1.0, 
 
   author: {
     
