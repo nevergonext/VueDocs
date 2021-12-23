@@ -7,19 +7,19 @@ tagline: 故不积跬步，无以至千里；不积小流，无以成江海。Vu
 # actionLink: /pages/b45ea2/
 # bannerBg: 'https://raw.githubusercontent.com/AsheOne18/Image-Repository/main/Image/bg02.jpg' # auto => 网格纹背景(有bodyBgImg时无背景)，默认 | none => 无 | '大图地址' | background: 自定义背景样式     
 
-# features: # 可选的
-#   - title: 前端
-#     details: Js / Ts / Ruby / Html / Css
-#     link: /web/ # 可选
-#     imgUrl: /img/ui.png # 可选
-#   - title: 后端
-#     details: C / C++ / Java / Go / Lua
-#     link: /ui/
-#     imgUrl: /img/python.png
-#   - title: 技术
-#     details: Framework / Tools / Bug
-#     link: /technology/
-#     imgUrl: /img/other.png
+features: # 可选的
+  # - title: 前端
+  #   details: Js / Ts / Ruby / Html / Css
+  #   link: /web/ # 可选
+  #   imgUrl: /img/ui.png # 可选
+  # - title: 后端
+  #   details: C / C++ / Java / Go / Lua
+  #   link: /ui/
+  #   imgUrl: /img/python.png
+  # - title: 技术
+  #   details: Framework / Tools / Bug
+  #   link: /technology/
+  #   imgUrl: /img/other.png
   # - title: 小记
   #   details: 鸡汤 / 心情 / 日记
   #   link: /more/
@@ -36,10 +36,10 @@ tagline: 故不积跬步，无以至千里；不积小流，无以成江海。Vu
 # postList: detailed
 # simplePostListLength: 10 # 简约版文章列表显示的文章数量，默认10。（仅在postList设置为simple时生效）
 
-postList: none
+postList: detailed
 
 ---
-:::center
+<!-- :::center
 ## ⚡朋友圈
 :::
 ::: cardList 4
@@ -145,4 +145,4 @@ yarn install # 或npm install
 # 启动
 yarn docs:dev # 或 # npm run dev
 ```
-:::
+::: -->

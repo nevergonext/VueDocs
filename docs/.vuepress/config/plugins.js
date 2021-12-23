@@ -121,7 +121,7 @@ module.exports = [
             showIcon: '',
             showText: '哎？你冲完啦！',
             hideIcon: '',
-            hideText: '亚洲情色、女主播黑丝诱惑、日本AV在线播放无需下载',
+            hideText: '免费色情视频及性爱电影 -A片，X级，色情片分享网站',
             recoverTime: 2000,
          },
       ],

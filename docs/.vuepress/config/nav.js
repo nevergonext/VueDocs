@@ -44,9 +44,7 @@ module.exports = [
   text: '学习笔记',
   items: [
     {text: '《Maven》',link: '/note/maven/'},
-    {text: '《MyBatis》',link: '/note/mybatis/'},
-    {text: '《Spring5》',link: '/note/spring5/'},
-    {text: '《SpringMVC》',link: '/note/springmvc/'},
+    {text: '《SSM》',link: '/note/ssm/'},
     {text: '《SpringBoot》',link: '/note/springboot/'},
     {text: '《SpringCloud》',link: '/note/springcloud/'},
   ]
