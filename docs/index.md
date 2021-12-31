@@ -36,10 +36,10 @@ features: # 可选的
 # postList: detailed
 # simplePostListLength: 10 # 简约版文章列表显示的文章数量，默认10。（仅在postList设置为simple时生效）
 
-postList: detailed
+postList: none
 
 ---
-<!-- :::center
+:::center
 ## ⚡朋友圈
 :::
 ::: cardList 4
@@ -145,4 +145,4 @@ yarn install # 或npm install
 # 启动
 yarn docs:dev # 或 # npm run dev
 ```
-::: -->
+:::
