@@ -17,11 +17,12 @@ module.exports = {
   sidebar: 'structuring', 
 
       bodyBgImg: [
-      'https://raw.githubusercontent.com/AsheOne18/Image-Repository/main/Image/wh1.jpg',
-      'https://raw.githubusercontent.com/AsheOne18/Image-Repository/main/Image/wh2.jpg',
+      // 'https://raw.githubusercontent.com/AsheOne18/Image-Repository/main/Image/bg6.png',
+      'https://raw.githubusercontent.com/AsheOne18/Image-Repository/main/Image/bg01.jpg',
+      // 'https://raw.githubusercontent.com/AsheOne18/Image-Repository/main/Image/bg2.jpg',
       'https://raw.githubusercontent.com/AsheOne18/Image-Repository/main/Image/wh4.jpg',
     ], 
-    bodyBgImgOpacity: 0.5, 
+    bodyBgImgOpacity: 1, 
 
   author: {
     

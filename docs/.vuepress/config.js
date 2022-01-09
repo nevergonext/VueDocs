@@ -6,7 +6,7 @@ module.exports = {
   // theme: 'vdoing', // 使用npm包主题
   theme: require.resolve('../../theme-vdoing'), // 使用本地主题
 
-  title: "Ashe & ZzGo & Qin Vue-Blog",
+  title: "Ashe's NoteBook",
   description: 'C / C++ /  C# / GO / Java / Python / JavaScript / TypeScript / Html / Css',
   base: "/VueDocs/", // 格式：'/<仓库名>/'， 默认'/'
   markdown: {

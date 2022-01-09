@@ -53,7 +53,7 @@ export default {
   .icons
     // border 1px solid var(--borderColor)
     border-top none
-    height 35px
+    height 30px
     line-height 35px
     a
       font-size 20px

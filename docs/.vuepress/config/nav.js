@@ -1,9 +1,9 @@
 // nav
 module.exports = [
-  { text: '首页', link: '/' },
+  { text: '🏠首页', link: '/' },
 
   {
-    text: '前端',
+    text: '🚋前端',
     link: '/web/', //目录页链接，此处link是vdoing主题新增的配置项，有二级导航时，可以点击一级导航跳到目录页
     items: [
       {
@@ -16,7 +16,7 @@ module.exports = [
     ],
   },
   {
-    text: '后端',
+    text: '👔后端',
     link: '/ui/',
     items: [
       {
@@ -37,7 +37,7 @@ module.exports = [
   },
   // ------------------------------------------------
   {
-    text: '技术',
+    text: '🧨技术',
     link: '/technology/',
     items: [
 {
@@ -45,15 +45,13 @@ module.exports = [
   items: [
     {text: '《Maven》',link: '/note/maven/'},
     {text: '《SSM》',link: '/note/ssm/'},
-    {text: '《SpringBoot》',link: '/note/springboot/'},
-    {text: '《SpringCloud》',link: '/note/springcloud/'},
   ]
 }
     ],
   },
   // -------------------------------------------------
   {
-    text: '问题',
+    text: '❓问题',
     link: '/bug/',
     items: [
       { text: '后端Bug', link: '/pages/270ace/' },
@@ -62,7 +60,7 @@ module.exports = [
   },
 
   {
-    text: '小记',
+    text: '📕小记',
     link: '/more/',
     items: [
       { text: '一些实用小技巧', link: '/pages/0b37ee/' },
@@ -73,7 +71,7 @@ module.exports = [
   },
 
   { 
-    text: '教程', 
+    text: '🧧教程', 
     link: '/turorials/',
     items: [
       { text: '快速上手', link: '/pages/b45ea2/'},
@@ -82,7 +80,7 @@ module.exports = [
   },
 
   {
-    text: '索引',
+    text: '🚮索引',
     link: '/archives/',
     items: [
       { text: '分类', link: '/categories/' },

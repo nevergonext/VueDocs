@@ -115,16 +115,16 @@ module.exports = [
          },
       ],
 
-      [
-         'dynamic-title',
-         {
-            showIcon: '',
-            showText: '哎？你冲完啦！',
-            hideIcon: '',
-            hideText: '免费色情视频及性爱电影 -A片，X级，色情片分享网站',
-            recoverTime: 2000,
-         },
-      ],
+      // [
+      //    'dynamic-title',
+      //    {
+      //       showIcon: '',
+      //       showText: '哎？你冲完啦！',
+      //       hideIcon: '',
+      //       hideText: '免费色情视频及性爱电影 -A片，X级，色情片分享网站',
+      //       recoverTime: 2000,
+      //    },
+      // ],
 //    ],
       
 
