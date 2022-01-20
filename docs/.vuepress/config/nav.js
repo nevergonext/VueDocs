@@ -7,10 +7,8 @@ module.exports = [
     link: '/web/', //目录页链接，此处link是vdoing主题新增的配置项，有二级导航时，可以点击一级导航跳到目录页
     items: [
       {
-        text: '学习笔记',
         items: [
-          { text: '《JavaScript》', link: '/note/javascript/' },
-          { text: '《Vue》', link: '/note/vue/' },
+          { text: 'CSS布局中的典中典',link: '/note/css/'},
         ],
       },
     ],
@@ -22,15 +20,15 @@ module.exports = [
       {
         text: '学习笔记',
         items: [
-          { text: '《Java》', link: '/note/java/' },
-          { text: '《C++》', link: '/note/cpp/' },
+          { text: 'Java', link: '/note/java/' },
+          { text: 'C++', link: '/note/cpp/' },
         ],
       },
       {
         text: '相关技术',
         items: [
-          { text: '《Redis》', link: '/note/redis/' },
-          { text: '《Docker》', link: '/note/docker/' },
+          { text: 'Redis', link: '/note/redis/' },
+          { text: 'Docker', link: '/note/docker/' },
         ],
       },
     ],
@@ -43,8 +41,8 @@ module.exports = [
 {
   text: '学习笔记',
   items: [
-    {text: '《Maven》',link: '/note/maven/'},
-    {text: '《SSM》',link: '/note/ssm/'},
+    {text: 'Maven',link: '/note/maven/'},
+    {text: 'SSM',link: '/note/ssm/'},
   ]
 }
     ],
