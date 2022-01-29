@@ -3,7 +3,7 @@
 </div>
 <h1 align="center">Vue-Docs</h1> 
 
-- [Preview VueDocs](https://www.jetbrains.com/webstorm/)
+- [Preview VueDocs](https://asheone18.github.io/VueDocs/)
 - [README](README.md)
 
 <h2>📔 Introduce</h2>
