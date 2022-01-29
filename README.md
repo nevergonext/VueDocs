@@ -1,47 +1,74 @@
-## 环境和启动
+<div align="center">
+<img src="https://avatars.githubusercontent.com/u/89166015?v=4" width=200>
+</div>
+<h1 align="center">Vue-Docs</h1> 
 
-### 1. 环境
+- [Preview VueDocs](https://www.jetbrains.com/webstorm/)
+- [README](README.md)
 
-1.在您的桌面，轻轻的右键，找到**Git Bash Here**
+<h2>📔 Introduce</h2>
 
-1.1 在此之前，您需要安装[Git](https://git-scm.com/downloads)，还有[VS code](https://code.visualstudio.com/) 或 [WebStorm](https://www.jetbrains.com/webstorm/)
+1. VueDocs is a Blog or Document developed based on `Vuepress`, NOT DOCS for VUE ！
 
-1.2 顺便再安装一下，[Node.js](https://nodejs.org/zh-cn/)，选择左边的长期维护版
+2. Styuls is easily customize any theme you like ~ 
 
-1.3 装完Node.js记得把[Yarn](https://yarn.bootcss.com/docs/install/#windows-stable)也装了
+3. Automatically generate header information in format , no need to fill in manually
 
-为什么不用npm？别问，要用也不是不行，没说不能用
+4. `Lightweight`, `responsive theme`, `completely free`, use source code to record the notes instead of third-party apps
 
-Yarn官网经常抽风，如果下载页面出现404，直接`win+R`输入`cmd`
+<h2>⭐ Start environment</h2>
 
-```bash
-# Windows 安装
+1. You should install [Git](https://git-scm.com/downloads)，[VS code](https://code.visualstudio.com/) or [WebStorm](https://www.jetbrains.com/webstorm/) and install [Node.js](https://nodejs.org/en/)
+
+2. And install [Yarn](https://yarn.bootcss.com/docs/install/#windows-stable)
+
+> Why not use `npm` but `yarn` as a dependency? Not saying npm can't work, you can also use `npm`...
+> 
+> If you can't download it from yarn's official website, you can follow the steps below to download
+```yml
+# for Windows
 npm install -g yarn --registry=https://registry.npm.taobao.org
 yarn config set sass_binary_site http://cdn.npm.taobao.org/dist/node-sass -g
-# 装完顺便通过检查版本确认安装是否成功，失败就去问Google吧
+
+# cheak version
 yarn --version
 ```
 
-### 2. 启动
+<h2>🐊 Deployment environment </h2>
 
-```bash
-# 克隆Project
+```yml
+# Clone Project
 git clone https://github.com/AsheOne18/VueDocs.git
 
-# 进入VueDocs目录
+# Go Project Directory
 cd VueDocs
 
-# 安装依赖
-yarn install # 或npm install 
+# Install dependencies
+yarn install # or # npm install 
 
-# 启动
-yarn docs:dev # 或 # npm run dev
+# Start
+yarn docs:dev # or # npm run dev
 
-# 万能的8080
+# Visit it
 http://localhost:8080/
 ```
 
-### 注意
+<h2>🎬 Tree</h2>
 
-- 如果你的现有项目依赖了 webpack 3.x，我们推荐使用 [Yarn](https://classic.yarnpkg.com/zh-Hans/)而不是 npm 来安装 VuePress。因为在这种情形下，npm 会生成错误的依赖树。
-
+```yml
+├─.github
+│  └─workflows
+│     └─ci.yml # Automatic deployment 
+├─docs # Do not change it name 
+│  ├─.vuepress
+│  │  ├─config # config
+│  │  ├─plugins # plugins
+│  │  ├─public 
+│  │  │  ├─img # img
+│  │  └─styles # css
+│  └─index.md # index.html
+├─theme-vdoing # theme
+│  ├─all files # theme
+└─utils # nothing to use
+    └─modules
+```
