@@ -22,9 +22,9 @@
 
 2. And install [Yarn](https://yarn.bootcss.com/docs/install/#windows-stable)
 
-> Why not use `npm` but `yarn` as a dependency? Not saying npm can't work, you can also use `npm`...
+> Why not use `npm` but `yarn` as a dependency? Never saying npm doesn't work！ you can also use `npm`...
 > 
-> If you can't download it from yarn's official website, you can follow the steps below to download
+> If you can't download it from yarn's official website, let's follow the steps below to download
 ```yml
 # for Windows
 npm install -g yarn --registry=https://registry.npm.taobao.org
