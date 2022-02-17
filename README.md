@@ -6,15 +6,6 @@
 - [Preview VueDocs](https://asheone18.github.io/VueDocs/)
 - [README](README.md)
 
-<h2>📔 Introduce</h2>
-
-1. VueDocs is a Blog or Document developed based on `Vuepress`, NOT DOCS for VUE ！
-
-2. Styuls is easily customize any theme you like ~ 
-
-3. Automatically generate header information in format , no need to fill in manually
-
-4. `Lightweight`, `responsive theme`, `completely free`, use source code to record the notes instead of third-party apps
 
 <h2>⭐ Start environment</h2>
 
